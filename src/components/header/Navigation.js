@@ -5,9 +5,7 @@ const Navigation = () => {
   return (
     <div>
       <Navbar dark color="dark">
-        <NavbarBrand href="https://www.youtube.com/">
-          Bohubrihi Restaurant
-        </NavbarBrand>
+        <NavbarBrand href="https://www.youtube.com/"> Restaurant </NavbarBrand>
       </Navbar>
     </div>
   );

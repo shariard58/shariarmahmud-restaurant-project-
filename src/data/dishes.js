@@ -2,9 +2,10 @@ const DISHES = [
   {
     id: 0,
     name: "Ginger Burger",
-    image: "assets/images/0burger.jpg",
+    image: "/assests/images/0burger.jpg",
     category: "meal",
     label: "Hot",
+
     price: "199",
     description:
       "This chicken burger gets an Asian-flavor twist with ginger and garlic. It's topped off with a fabulous coleslaw. If you like, serve the coleslaw as a side for grilled items, like chicken breasts, fish fillets or chops",
@@ -50,7 +51,7 @@ const DISHES = [
   {
     id: 1,
     name: "BBQ Chicken Pizza",
-    image: "assets/images/1pizza.jpg",
+    image: "/assests/images/1pizza.jpg",
     category: "meal",
     label: "",
     price: "599",
@@ -98,7 +99,7 @@ const DISHES = [
   {
     id: 2,
     name: "French Fries",
-    image: "assets/images/2fries.jpg",
+    image: "/assests/images/2fries.jpg",
     category: "appetizer",
     label: "New",
     price: "120",
@@ -146,7 +147,7 @@ const DISHES = [
   {
     id: 3,
     name: "Cheese Cake",
-    image: "assets/images/3cake.jpg",
+    image: "/assests/images/3cake.jpg",
     category: "dessert",
     label: "",
     price: "170",

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MenuItem from "./MenuItem.js";
+import MenuItem from "./MenuItem";
 
 import DISHES from "../../data/dishes.js";
 
@@ -12,6 +12,7 @@ class Menu extends Component {
     const menu = this.state.dishes.map((item) => {
       return <MenuItem dish={item} key={item.id} />;
     });
+
     return (
       <div className="container">
         <div className="row ">
