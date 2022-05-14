@@ -11,11 +11,17 @@ const MenuItem = (props) => {
             width="100%"
             src={props.dish.image}
             alt={props.dish.name}
-            style={{ opacity: "0.5" }}
+            style={{ opacity: "0.65" }}
           />
 
           <CardImgOverlay>
-            <CardTitle> {props.dish.name}</CardTitle>
+            <CardTitle
+              style={{ cursor: "pointer", fontWeight: "bolder" }}
+              onClick={() => props.onDishSelect(props.dish)}
+            >
+              {" "}
+              {props.dish.name}
+            </CardTitle>
           </CardImgOverlay>
         </CardBody>
       </Card>
