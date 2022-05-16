@@ -28,10 +28,7 @@ class Navigation extends Component {
       <div>
         <Navbar dark color="dark" expand="sm">
           <NavbarToggler onClick={this.navToggle} />
-          <NavbarBrand href="https://www.youtube.com/">
-            {" "}
-            Restaurant{" "}
-          </NavbarBrand>
+          <NavbarBrand href="#"> Restaurant </NavbarBrand>
 
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav className="mr-auto" navbar>
