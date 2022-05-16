@@ -5,12 +5,16 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // import Table from "react-bootstrap/Table";
 import MainComponent from "./components/MainComponent";
 
+import { BrowserRouter as Router } from "react-router-dom";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <MainComponent />
+      <Router>
+        <MainComponent />
+      </Router>
     </div>
   );
 }
