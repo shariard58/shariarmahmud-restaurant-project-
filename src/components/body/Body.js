@@ -3,7 +3,14 @@ import Menu from "./Menu";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Routes,
+  Redirect,
+  Navigate,
+} from "react-router-dom";
 
 const Body = () => {
   return (
@@ -14,6 +21,7 @@ const Body = () => {
 
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/menu" element={<Menu />} />
+        <Route path="/" element={<Navigate replace to="/home" />} />
       </Routes>
     </div>
   );
